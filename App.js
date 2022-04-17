@@ -39,7 +39,7 @@ import Navigator from './src/navigator';
 export default function App() {
   return (
     <Provider store={store}>
-      <Navigator/>
+      <Navigator style={{backgroundColor:'red'}}/>
      </Provider>
   );
 }
