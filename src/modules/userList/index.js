@@ -45,7 +45,7 @@ export default function UsersList() {
         data={data}
         style={{width: '90%'}}
         renderItem={renderItem}
-        // keyExtractor={(item) => item.id.toString()}
+        keyExtractor={(item) => String(item.id)}
         showsVerticalScrollIndicator={false}
         onEndReached={_onEndReached}
         onEndReachedThreshold={0.5}

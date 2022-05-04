@@ -34,12 +34,12 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import store from './src/Reducer/store' 
-import Navigator from './src/navigator';
+import Route from './src/Routes';
 
 export default function App() {
   return (
     <Provider store={store}>
-      <Navigator style={{backgroundColor:'yellow'}}/>
+      <Route style={{backgroundColor:'yellow'}}/>
      </Provider>
   );
 }
